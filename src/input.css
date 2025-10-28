@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss" source(none);
+
+@source "./";
+
+@theme {
+  --font-sansPublic: "Public Sans", sans-serif;
+  --color-blue-950: hsl(233, 26%, 24%);
+  --color-green-500: hsl(136, 64%, 51%);
+  --color-cyan-400: hsl(192, 69%, 51%);
+  --color-gray-600: hsl(233, 8%, 62%);
+  --color-gray-100: hsl(220, 16%, 96%);
+  --color-gray-50: hsl(0, 0%, 98%);
+  --color-whiteCustom: hsl(0, 100%, 100%);
+  --text-h1: 62px;
+  --font-weight-h1: 600;
+  --leading-h1: 1.4;
+  --text-paragraphHero: 24px;
+  --font-weight-paragraphHero: 300;
+  --leading-paragraphHero: 1.6;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sansPublic);
+  }
+}
