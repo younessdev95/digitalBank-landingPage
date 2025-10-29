@@ -31,6 +31,11 @@
   --text-h3: 30px;
   --font-weight-h3: 500;
   --leading-normalText: 1.5;
+  --text-phonesNormal: 16px;
+  --text-phonesTitle: 21px;
+  --text-phonesFooter: 12px;
+  --breakpoint-phones: 501px;
+  --breakpoint-desktop: 1200px;
 }
 
 @layer base {
