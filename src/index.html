@@ -24,7 +24,12 @@
           alt="Logo Header"
         />
       </a>
-      <nav>
+      <div class="md:hidden ml-aut my-auto pr-4 block cursor-pointer">
+        <div class="h-1 w-8 rounded-full bg-green-500"></div>
+        <div class="h-1 w-8 rounded-full bg-green-500 mt-1"></div>
+        <div class="h-1 w-8 rounded-full bg-green-500 mt-1"></div>
+      </div>
+      <nav class="md:block hidden">
         <ul class="flex items-center list-none gap-5">
           <li>
             <a
@@ -63,7 +68,7 @@
           </li>
         </ul>
       </nav>
-      <div>
+      <div class="md:block hidden">
         <a
           class="inline-block max-w-96 p-4 no-underline text-center text-whiteCustom rounded-[50px] bg-gradient-to-tl from-cyan-400 to-green-500 transition-all delay-300 hover:font-bold"
           href="#"

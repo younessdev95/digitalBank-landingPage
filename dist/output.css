@@ -212,6 +212,9 @@
   .flex {
     display: flex;
   }
+  .hidden {
+    display: none;
+  }
   .inline-block {
     display: inline-block;
   }
@@ -437,6 +440,11 @@
       @media (hover: hover) {
         color: var(--color-gray-600);
       }
+    }
+  }
+  .md\:block {
+    @media (width >= 48rem) {
+      display: block;
     }
   }
 }

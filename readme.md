@@ -1,7 +1,7 @@
-# Digital Landing WebPage
+# Digital bank landing page
 
 - SKILLS : HTML, CSS, GIT
 
 - FRAMEWORKS : Tailwind CSS V4
 
-- GUIDLINES SOURCE : [frontendmentor.io](https://www.frontendmentor.io/)
+- GUIDLINES SOURCE : https://www.frontendmentor.io/challenges/digital-bank-landing-page-WaUhkoDN
