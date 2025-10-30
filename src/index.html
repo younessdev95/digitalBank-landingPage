@@ -219,12 +219,15 @@
           Latest Articles
         </h2>
         <div
-          class="flex items-center justify-between gap-11 max-phones:flex-col max-phones:items-center max-phones:text-center"
+          class="flex items-center gap-11 max-phones:flex-col max-phones:items-center max-phones:text-center"
         >
-          <div class="flex flex-col items-center gap-4 bg-whiteCustom">
-            <div>
+          <!-- ARTICLE 1-->
+          <div
+            class="flex flex-col items-center justify-center bg-whiteCustom flex-1"
+          >
+            <div class="overflow-hidden">
               <img
-                class="max-w-[92%]"
+                class="w-full h-ful object-cover"
                 src="./assets/images/image-currency.jpg"
                 alt="Currency image"
               />
@@ -246,17 +249,20 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-col items-center gap-4 bg-whiteCustom">
-            <div>
+          <!-- ARTICLE 2-->
+          <div
+            class="flex flex-col items-center justify-center bg-whiteCustom flex-1"
+          >
+            <div class="overflow-hidden">
               <img
-                class="max-w-full"
+                class="w-full h-ful object-cover"
                 src="./assets/images/image-restaurant.jpg"
                 alt="Restaurant Image"
               />
             </div>
             <div class="p-5">
               <p
-                class="mb-2 text-gray-600 text-articlesDesc font-articlesDesc leading-normalText"
+                class="text-gray-600 text-articlesDesc mb-2 font-articlesDesc leading-normalText"
               >
                 By Wilson Hutton
               </p>
@@ -271,10 +277,13 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-col items-center gap-4 bg-whiteCustom">
-            <div>
+          <!-- ARTICLE 3-->
+          <div
+            class="flex flex-col items-center justify-center bg-whiteCustom flex-1"
+          >
+            <div class="overflow-hidden">
               <img
-                class="max-w-full"
+                class="w-full h-ful object-cover"
                 src="./assets/images/image-plane.jpg"
                 alt="Plane Image"
               />
@@ -296,10 +305,13 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-col items-center gap-4 bg-whiteCustom">
-            <div>
+          <!-- ARTICLE 4-->
+          <div
+            class="flex flex-col items-center justify-center bg-whiteCustom flex-1"
+          >
+            <div class="overflow-hidden">
               <img
-                class="max-w-full"
+                class="w-full h-ful object-cover"
                 src="./assets/images/image-confetti.jpg"
                 alt="Confetti Image"
               />
@@ -326,7 +338,7 @@
     </main>
     <!-- FOOTER -->
     <footer
-      class="max-phones:text-phonesFooter max-phones:flex-col max-phones:gap-6 flex items-center justify-around bg-blue-950 px-12 text-whiteCustom py-6"
+      class="max-phones:text-phonesFooter max-phones:py-18 max-phones:flex-col max-phones:gap-6 flex items-center justify-around bg-blue-950 px-12 text-whiteCustom py-6"
     >
       <div class="max-phones:gap-5 flex flex-col items-center gap-12">
         <div>
@@ -371,7 +383,7 @@
         </ul>
       </div>
       <div>
-        <ul class="list-none flex flex-col items-start gap-3.5">
+        <ul class="max-phones:items-center flex flex-col items-start gap-3.5">
           <li>
             <a
               class="text-footer cursor-pointer transition-all delay-300 hover:text-gray-600"
@@ -396,7 +408,7 @@
         </ul>
       </div>
       <div>
-        <ul class="list-none flex flex-col items-start gap-3.5">
+        <ul class="max-phones:items-center flex flex-col items-start gap-3.5">
           <li>
             <a
               class="text-footer cursor-pointer transition-all delay-300 hover:text-gray-600"
@@ -421,9 +433,9 @@
         </ul>
       </div>
       <div>
-        <div>
+        <div class="max-phones:text-center">
           <a
-            class="inline-block mb-6 text-footer max-w-36 p-4 no-underline text-center text-whiteCustom rounded-[30px] bg-gradient-to-tl from-cyan-400 to-green-500 transition-all delay-300 hover:text-gray-600"
+            class="inline-block mb-6 text-footer max-w-36 p-4 no-underline text-center text-whiteCustom rounded-[30px] bg-gradient-to-tl from-cyan-400 to-green-500 transition-all delay-300 hover:font-bold"
             href="#"
             >Request Invite</a
           >
